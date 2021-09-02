@@ -9,13 +9,13 @@
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 path: '../Animal_dataset_duo' # dataset root dir
-train: 'images/train'  # train images (relative to 'path') 128 images
-val: 'labels'  # val images (relative to 'path') 128 images
-test: 'images/val' # test images (optional)
+train: '/content/Animal_data_duo/images/train'  # train images (relative to 'path') 128 images
+val: '/content/Animal_data_duo/images/val'  # val images (relative to 'path') 128 images
+#test: 'images/val' # test images (optional)
 
 # Classes
 nc: 7  # number of classes
-names: [ 'person','deer','tiger','racoons','poacher','sheep','fox']  # class names
+names: [ 'person','deer','tiger','racoons','guns','sheep','fox, poacher']  # class names
 
 
 # Download script/URL (optional)
