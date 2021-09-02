@@ -15,7 +15,7 @@ val: '/content/Animal_data_duo/images/val'  # val images (relative to 'path') 12
 
 # Classes
 nc: 7  # number of classes
-names: [ 'person','deer','tiger','racoons','guns','sheep','fox, poacher']  # class names
+names: [ 'person','deer','tiger','racoons','gun/gunner','sheep','fox, poacher']  # class names
 
 
 # Download script/URL (optional)
